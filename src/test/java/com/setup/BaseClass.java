@@ -50,6 +50,7 @@ public class BaseClass {
 		  driver = new ChromeDriver();
 		  driver.manage().window().maximize();
 		  driver.get(url);
+		  System.out.println("Chrome browser is launched");
 		  Reporter.log("Chrome Browser is launched");
 
 		  break;
